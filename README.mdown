@@ -1,0 +1,6 @@
+## Overview
+A set of CSS3 UI elements.
+
+## To do
+- Fix slider handle
+- Add disabled and hover states
