@@ -3,7 +3,15 @@
 
 <head>
 	<title>UI Kit</title>
+	
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<meta name="author" content="Raj Ramamurthy">
+	<meta name="description" content="CSS3 interface elements.">
+	
+	<script src="js/script.js"></script>
+	
 	<link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -19,31 +27,32 @@
 		</div>
 		
 		<div id="right">
-			<select class="select">
+			<select>
 				<option>Menu</option>
 				<option>Item</option>
 			</select>
 			
-			<input type="radio" class="radio">		
-			<input type="radio" class="radio" disabled>
-			<input type="radio" class="radio" checked>
+			<input type="radio">		
+			<input type="radio" disabled>
+			<input type="radio" checked>
 			
 			<span id="checkbox">
-				<input type="checkbox" class="checkbox">
-				<input type="checkbox" class="checkbox" checked>
+				<input type="checkbox">
+				<input type="checkbox" checked>
 			</span>
 			
-			<input type="search" placeholder="Search" results="0" class="search">
-			<input type="text" class="text" placeholder="Text">
-			<input type="range" min="0" max="10" step="0.1" value="3" class="range">
+			<input type="search" placeholder="Search" results="0">
+			<input type="text" placeholder="Text">
+			<input type="range" min="0" max="10" step="0.1" value="3">
 		</div>
 		
 		<div class="clear"></div>
 		
 		<div>
 			<div class="toolbar">
-				<input type="search" class="search">
-				<button class="button">Button</button>
+				<input type="search">
+				<button id="button">Button</button>
+				<div class="clear"></div>
 			</div>
 		</div>
 	</div>
